@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import './components/Header'
 import Header from './components/Header'
@@ -11,8 +10,8 @@ function App() {
  return (
   <div 
     className='flex flex-col justify-between 
-    bg-gray-200 text-center font-sans text-neutral-800 
-    min-h-screen py-5 px-3'>
+    bg-gray-100 text-center font-sans text-neutral-800 
+    min-h-screen'>
 
     <Header/>
     <Main/>
